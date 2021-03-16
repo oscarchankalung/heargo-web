@@ -1,0 +1,16 @@
+.accessories-page {
+  > .banner-wrapper {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .product-list-wrapper {
+    .accessory-wrapper {
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}

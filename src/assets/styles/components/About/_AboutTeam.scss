@@ -1,0 +1,30 @@
+#team {
+  .card {
+    border: none;
+    border-radius: 0;
+    .card-img {
+      border-radius: 0;
+    }
+    .card-img-overlay {
+      @include typo-heading;
+      color: $white;
+      background-color: $primary;
+      opacity: 0.75;
+      visibility: hidden;
+    }
+    &:hover .card-img-overlay {
+      visibility: visible;
+    }
+  }
+  .body {
+    width: 100%;
+    .name {
+      @include typo-content-bold;
+      text-align: center;
+    }
+    .title {
+      @include typo-content-light;
+      text-align: center;
+    }
+  }
+}

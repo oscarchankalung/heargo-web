@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  src: url('../../fonts/NotoSansCJKtc-Medium.otf');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 300;
+  src: url('../../fonts/NotoSansCJKtc-Light.otf');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../../fonts/NotoSansCJKtc-Bold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 500;
+  src: url('../../fonts/Gotham/GothamMedium.ttf');
+}
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 300;
+  src: url('../../fonts/Gotham/GothamLight.ttf');
+}
+@font-face {
+  font-family: 'Gotham';
+  font-weight: bold;
+  src: url('../../fonts/Gotham/GothamBold.ttf');
+}
+
+// languages
+.zh {
+  letter-spacing: 1px;
+}
+.en {
+  letter-spacing: normal !important;
+}
+
+// main
+@mixin typo-title {
+  @include typography('Noto Sans', $breakpoints-md, 50px, 36px, bold, bold);
+}
+@mixin typo-subtitle {
+  @include typography('Noto Sans', $breakpoints-md, 32px, 24px, bold, bold);
+}
+@mixin typo-heading {
+  @include typography('Noto Sans', $breakpoints-md, 21px, 21px, bold, bold);
+}
+@mixin typo-subheading {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 16px, bold, bold);
+}
+@mixin typo-content-bold {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 16px, bold, bold);
+}
+@mixin typo-content-normal {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 16px, 500, 500);
+}
+@mixin typo-content-light {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 16px, 300, 300, 1.7, 1.7);
+}
+@mixin typo-note {
+  @include typography('Noto Sans', $breakpoints-md, 12px, 12px, 300, 300);
+}
+@mixin typo-mono {
+  @include typography('Noto Sans', $breakpoints-md, 32px, 32px, 500, 500, 30px, 30px);
+}
+@mixin typo-action {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 18px, 500, 500);
+}
+@mixin typo-button {
+  @include typography('Noto Sans', $breakpoints-md, 16px, 18px, 500, 500);
+}
+@mixin typo-sign {
+  @include typography('Noto Sans', $breakpoints-md, 14px, 14px, 500, 500);
+}
+@mixin typo-icon {
+  width: 24px;
+  height: 24px;
+  @media (max-width: $breakpoints-md) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+// nav
+@mixin typo-nav-menu {
+  @include typography('Noto Sans', $breakpoints-xl, 16px, 21px, 500, 500);
+}
+@mixin typo-nav-dropdown {
+  @include typography('Noto Sans', $breakpoints-xl, 16px, 16px, 300, 300);
+}
+@mixin typo-nav-icon {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+  @media (max-width: $breakpoints-xl) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+// footer
+@mixin typo-footer-title {
+  @include typography('Noto Sans', $breakpoints-xl, 16px, 18px, bold, bold);
+}
+@mixin typo-footer-content {
+  @include typography('Noto Sans', $breakpoints-xl, 16px, 18px, 500, 500);
+}
+
+// default
+body {
+  p.primary {
+    color: $primary !important;
+  }
+  span.primary {
+    color: $primary !important;
+    display: contents;
+  }
+  span.secondary {
+    color: $secondary !important;
+    display: contents;
+  }
+  span.white {
+    color: white !important;
+    display: contents;
+  }
+  span.digit {
+    @include typo-mono;
+  }
+  span.bold {
+    font-weight: bold !important;
+    display: contents;
+  }
+  .bg-image {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+}

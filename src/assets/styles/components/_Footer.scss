@@ -1,0 +1,41 @@
+.footer {
+  background-color: $secondary;
+  color: $white;
+  padding: 4em;
+
+  h5 {
+    color: $white;
+    font-size: 16px;
+  }
+  ul{
+    list-style-type: none;
+    li {
+      margin: 1em 0em;
+      font-size: 12px;
+    }
+  }
+  .white {
+    color: $white !important;
+  }
+
+  h4.title {
+    font-size: 16px;
+  }
+
+  span.subtitle {
+    display: block;
+    font-size: 10px;
+  }
+  
+  span.contact {
+    display: block;
+    font-size: 14px;
+  }
+
+  hr {
+    border-top: 1px solid $white;
+  }
+  .copyright {
+      font-size: 10px;
+  }
+}

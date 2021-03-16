@@ -1,0 +1,33 @@
+.charge-bg {
+  background: linear-gradient(white 300px, #fbece6 300px);
+  @media (max-width: $breakpoints-md) {
+    background: linear-gradient(white 200px, #fbece6 200px);
+  }
+
+  .charge-wrapper {
+    position: relative;
+    height: 100%;
+
+    .charge-list {
+      @include flex-container(row, space-between, center);
+      .charge-con {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .charge-con-content {
+          @include flex-container(column, center, center);
+          text-align: center;
+        }
+      }
+    }
+    .charge-tip {
+      color: rgb(138, 134, 134);
+      text-align: left;
+    }
+  }
+}

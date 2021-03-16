@@ -1,0 +1,84 @@
+.brand-detail-page {
+  .main-brand-detail-img {
+    position: relative;
+    height: 520px !important;
+
+    background-image: url('../../assets/images/product/Hansaton-slider.jpg');
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    > .card-wrapper {
+      position: absolute;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+      background-color: #fdfbfa;
+      bottom: 45px;
+      left: 70px;
+
+      &.mobile {
+        left: 10px;
+        width: 300px;
+      }
+
+      > .card-content-wrapper {
+        position: relative;
+
+        > .arrow-icon-wrapper {
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          background-color: #f16338;
+          right: -15px;
+          top: 50%;
+          transform: translate(0, -50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .product-story {
+    > .img {
+      height: 100%;
+      height: 400px !important;
+
+      background-image: url('../../assets/images/product/Hansaton-brand_story.jpg');
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip: content-box;
+    }
+
+    > .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  .product-list {
+    > .product-list-item {
+      > .product-list-item-wrapper {
+        background-color: #f1f0f4;
+
+        > img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .qa-wrapper {
+    background-color: #f1f0f4;
+  }
+}

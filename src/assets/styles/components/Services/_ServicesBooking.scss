@@ -1,0 +1,29 @@
+#booking {
+  overflow: visible;
+  .text {
+    @include flex-container(column, center, flex-start);
+    background-color: white;
+    .swiper-container {
+      width: 100%;
+      .content {
+        &.zh {
+          height: 72px;
+        }
+        &.en {
+          height: 120px;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .phone {
+    @include flex-container(row, center, flex-start);
+    overflow: visible;
+    img {
+      height: 450px;
+      object-fit: cover;
+    }
+  }
+}

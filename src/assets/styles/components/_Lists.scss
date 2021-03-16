@@ -1,0 +1,21 @@
+.list-group {
+  margin: 10px;
+  border-radius: 18px;
+  box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.04);
+
+  .list-group-item:first-child{
+    padding: 4em 15px 15px 3em;
+  }
+
+  .list-group-item {
+    padding: 15px 15px 15px 3em;
+    border-style: none;
+    .a img {
+      margin-right: 10px;
+    }
+  }
+
+  .list-group-item:last-child{
+    padding: 15px 15px 4em 3em;
+  }
+}

@@ -1,0 +1,36 @@
+#suitable {
+  padding: 4rem 0;
+  overflow: hidden;
+  @media (max-width: $breakpoints-sm) {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .swiper-container {
+    @media (max-width: $breakpoints-sm) {
+      overflow: visible;
+    }
+    .circle {
+      transition: all 0.5s;
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+      }
+      .layer {
+        position: absolute;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        background: rgba($color: #f16338, $alpha: 0.8);
+        @include flex-container(row, center, center);
+        color: white;
+        white-space: pre-wrap;
+        text-align: center;
+        padding: 2rem;
+      }
+    }
+  }
+}

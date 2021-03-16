@@ -1,0 +1,56 @@
+.feature-item {
+  @include flex-container(row, center, center);
+  position: relative;
+  width: 100%;
+  @media (max-width: $breakpoints-lg) {
+    @include flex-container(column, center, center);
+  }
+  .feature-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .feature-image {
+    @include background-image;
+    position: relative;
+    @media (max-width: $breakpoints-lg) {
+      width: 100%;
+    }
+  }
+  .feature-card {
+    @include flex-container(column, center, flex-start);
+    position: relative;
+    width: 500px;
+    @media (max-width: $breakpoints-lg) {
+      width: 100%;
+      padding: 0 5rem;
+      top: -15px;
+    }
+    @media (max-width: $breakpoints-sm) {
+      padding: 0 2.5rem;
+    }
+    .sign {
+      @include typo-sign;
+      @include flex-container(column, center, center);
+      width: 90px;
+      height: 90px;
+      color: $primary;
+      border: 1px solid $primary;
+      border-radius: 50%;
+    }
+    .row {
+      @include flex-container(column, center, flex-start);
+      width: 100%;
+      .round-button {
+        @include button-shape(2rem);
+        @media (max-width: $breakpoints-sm) {
+          width: 100%;
+        }
+      }
+      .action {
+        @include action-icon;
+      }
+    }
+  }
+}

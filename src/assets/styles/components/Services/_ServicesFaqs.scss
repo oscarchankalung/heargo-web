@@ -1,0 +1,9 @@
+#faqs {
+  .question {
+    @include flex-container(row, space-between, flex-start);
+    cursor: pointer;
+    .icon {
+      color: $dusty-orange;
+    }
+  }
+}

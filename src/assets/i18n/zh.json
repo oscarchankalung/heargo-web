@@ -1,0 +1,684 @@
+{
+  "nav": {
+    "about": "關於HearGo",
+    "about_dropdown_mission": "使命",
+    "about_dropdown_team": "你的聽力護理專家",
+    "about_dropdown_values": "HearGo的核心理念",
+    "about_dropdown_news": "最新資訊",
+    "services": "上門服務",
+    "products": "助聽器",
+    "products_dropdown_Hansaton_top": "./product-Hansaton-product.png",
+    "products_dropdown_Hansaton_bottom": "./product-Hansaton-logo.png",
+    "products_dropdown_Phonak_top": "./product-Phonak-product.png",
+    "products_dropdown_Phonak_bottom": "./product-Phonak-logo.jpg",
+    "products_dropdown_accessories_top": "./product-accessory.png",
+    "products_dropdown_accessories_bottom": "配件及手機app",
+    "products_dropdown_battery_top": "./product-battery.jpg",
+    "products_dropdown_battery_bottom": "電池及清潔保養產品",
+    "products_dropdown_all": "查看全部品牌",
+    "knowledge": "聽力知識",
+    "contacts": "聯絡我們",
+    "booking": "立即預約",
+    "language_zh": "中",
+    "language_en": "en",
+    "login": "登入"
+  },
+  "footer": {
+    "about_HearGo": "關於HearGo",
+    "brand_story": "品牌故事",
+    "mission": "使命",
+    "experts": "你的聽力護理專家團隊",
+    "value": "HearGo品牌價值",
+    "contact_us": "聯絡我們",
+    "services": "上門服務",
+    "workflow": "服務種類及流程",
+    "service_charge": "服務收費",
+    "how_to_book": "如何預約",
+    "payment": "支付方式",
+    "q_and_a": "常見問題",
+    "products": "助聽器",
+    "handsaton": "德國漢莎通助聽器",
+    "phonak": "瑞士峰力Phonak",
+    "accessory": "配件及手機app",
+    "battery": "電池及清潔保養產品",
+    "knowledge": "聽力知識",
+    "what_is_hearing_impairment": "什麼是聽力障礙",
+    "choose_hearing_aid": "如何選配助聽器",
+    "user_guide": "助聽器使用指南",
+    "maintenance": "保養清潔及維修",
+    "connect_accessories": "連接配件",
+    "boking_now": "立即預約",
+    "privacy": "私隱條例",
+    "t_and_c": "條款和條件",
+    "face_problem": "遇到問題？",
+    "find_us": "立即搵我地嘅客服團隊啦！",
+    "phone": "2893 1102",
+    "whatsapp": "WhatsApp 按此",
+    "btn_contact": "聯絡客服",
+    "right": "© HearGo. All rights reserved."
+  },
+  "home": {
+    "title": "主頁",
+    "carousels": {
+      "1_testimonial_title": "Carrie / 102歲林婆婆的女兒",
+      "1_testimonial_text": "註冊聽力學家 Vincent 游生：\n專家好人，講解清晰\n上門服務方便老人家及照顧者\n會推介給朋友",
+      "1_testimonial_icon": "./icons/home_Arrow-right.svg",
+      "1_image_mobile": "./home-carousel-zh-1-mobile.png",
+      "2_image_mobile": "./home-carousel-zh-2-mobile.png",
+      "3_image_mobile": "./home-carousel-zh-3-mobile.png",
+      "1_image_desktop": "./home-carousel-zh-1-desktop.png",
+      "2_image_desktop": "./home-carousel-zh-2-desktop.png",
+      "3_image_desktop": "./home-carousel-zh-3-desktop.png"
+    },
+    "smallActions": [
+      {
+        "title": "預約上門服務",
+        "text": "網上預約，3分鐘完成！",
+        "button": "立即預約",
+        "image": "./web-big-button1.jpg"
+      },
+      {
+        "title": "免費諮詢專家",
+        "text": "保證1個工作天內回覆",
+        "button": "留下聯絡",
+        "image": "./web-big-button2.jpg"
+      }
+    ],
+    "features": {
+      "heading": "為何選用<0>HearGo</0>？",
+      "list": [
+        {
+          "image": "./web-feature1.jpg",
+          "card": {
+            "sign": "優勢<0>01</0>",
+            "title": "無需出門，全程安坐家中",
+            "text": "傳統聽力中心集中於市區，路程不短，加上往往需要來回數次做不同的檢查、調校，費時又不便。HearGo提供上門服務，由聽力護理專家親自來訪，為你提供全面、個人化的聽力護理。",
+            "action": "服務流程"
+          }
+        },
+        {
+          "image": "./web-feature2.png",
+          "card": {
+            "sign": "優勢<0>02</0>",
+            "title": "預約日期時間，任你選擇",
+            "text": "網上預約簡單方便，只需選擇服務種類、日期及時間，最快3分鐘便可完成！專家會於1個工作天內致電回覆，確認預約。",
+            "action": "如何5步完成預約"
+          }
+        },
+        {
+          "image": "./web-feature3.png",
+          "card": {
+            "sign": "優勢<0>03</0>",
+            "title": "先問專家，後預約",
+            "text": "預約上門服務前，可先透過電話或WhatsApp諮詢HearGo聽力護理專家的意見，費用全免。專家會針對你的問題或需要，建議最適合的服務方案。",
+            "action": "HearGo團隊",
+            "button": "免費電話諮詢"
+          }
+        },
+        {
+          "image": "./web-feature4.jpg",
+          "card": {
+            "sign": "優勢<0>04</0>",
+            "title": "價目清晰，網上支付簡易快捷",
+            "text": "服務收費一目了然，可全程網上預約支付。預先支付費用，或於完成服務後支付。電子帳單清晰記錄所有帳目，讓你隨時查看，遇到問題可即時聯絡客服。",
+            "action": "付款方式"
+          }
+        },
+        {
+          "image": "./web-feature5.png",
+          "card": {
+            "sign": "優勢<0>05</0>",
+            "title": "登入平台，隨時管理電子報告",
+            "text": "想查看聽力狀況，以後毋須左問右問，只需登入HearGo即可隨時隨地查看自己的聽力狀況及報告、預約詳情、產品保養期限等資訊。",
+            "action": "登入/註冊"
+          }
+        }
+      ]
+    },
+    "services": {
+      "subtitle": "一站式上門服務——\n<0>檢查、驗配、調較\n1 Tick過！</0>",
+      "action": "更多服務種類",
+      "list": [
+        {
+          "image": "./web-steps1.jpg",
+          "sign": "<0>01</0>",
+          "title": "聽力檢查",
+          "text": "了解自己的耳道狀況及聽力程度"
+        },
+        {
+          "image": "./web-steps2.jpg",
+          "sign": "<0>02</0>",
+          "title": "選配助聽器",
+          "text": "根據自己的喜好及需要，專家協助選配助聽器"
+        },
+        {
+          "image": "./web-steps3.jpg",
+          "sign": "<0>03</0>",
+          "title": "試戴助聽器",
+          "text": "於真實環境中即場配戴及試聽助聽器"
+        },
+        {
+          "image": "./web-steps4.jpg",
+          "sign": "<0>04</0>",
+          "title": "調校跟進及維修保養",
+          "text": "保養期可長達4年"
+        }
+      ]
+    },
+    "products": {
+      "subtitle": "多款最新型號助聽器，\n等你體驗！",
+      "text": "探索不同配戴款式：\n耳內式／耳背式／單側聽損",
+      "action": "助聽器品牌",
+      "button": "查看更多",
+      "list": [
+        {
+          "image": "./web-product1.png",
+          "text": "熱賣：HANSATON AQ Sound XC Pro R"
+        },
+        {
+          "image": "./web-product2.png",
+          "text": "Product 2"
+        },
+        {
+          "image": "./web-product3.png",
+          "text": "Product 3"
+        }
+      ],
+      "productDetail": {
+        "platform": "平台",
+        "price": "費用 (每部)",
+        "warranty": "保養期",
+        "suitableFor": "適合人士v",
+        "firstTimeUsers": "初次使用者",
+        "premiumLevel": "升級之選",
+        "advancedTechnology": "追求領先科技",
+        "specification": "產品規格 v",
+        "style": "外型",
+        "power": "款式",
+        "level": "級別",
+        "features": "產品功能 v",
+        "noiseReduction": "降嘈功能",
+        "automatic": "全自動",
+        "volumeControlBtn": "音量控制按鈕",
+        "waterResistance": "防水防塵功能",
+        "handsFreeVoiceCalls": "免提雙耳通話",
+        "directBluetooth": "直連藍芽配件",
+        "tvStreaming": "直連電視配件",
+        "voiceCallStreaming": "抑制風聲",
+        "suitableEnv": "適合聲音環境 v",
+        "atHome": "家中",
+        "citryStreets": "街上",
+        "restaurant": "餐廳",
+        "meeting": "會議",
+        "outdoor": "郊外",
+        "conversationsInCar": "車廂",
+        "church": "教堂",
+        "appearance": "外觀需要",
+        "design": "外殼設計",
+        "personalizedNeed": "個人化需要 v",
+        "mobileAppSupport": "手機程式支援",
+        "powerfulOutput": "超強力輸出",
+        "ssd": "單側聽損",
+        "remoteSupport": "遙距支援"
+      }
+    },
+    "largeAction": {
+      "subtitle": "不清楚自己是否需要聽力服務？",
+      "title": {
+        "medium": "免費諮詢專家\n問清楚！",
+        "large": "免費諮詢專家問清楚！"
+      },
+      "text": "致電2893 1102聯絡我們，所有查詢\n保證1個工作天內回覆。",
+      "button": "立即諮詢",
+      "image": "./web-enquiry.jpg"
+    },
+    "contact_form": {
+      "title": "馬上諮詢！",
+      "subtitle": "請留下你的姓名、聯絡電話、電郵及回覆方法。",
+      "name": "姓名",
+      "phone": "聯絡電話",
+      "email": "電子郵件",
+      "btn_submit": "提交",
+      "success_msg": "已成功提交"
+    }
+  },
+  "about": {
+    "story": {
+      "title": "品牌故事",
+      "slogan": "聲音．連繫<0>生活</0>",
+      "contents.0": "HearGo網上聽力服務預約平台專為有需要人士配對專業的聽力護理家，將個人化的聽力護理服務直接帶到府上，幫助聽障人士重拾聽力，跨越溝通障礙。",
+      "contents.1": "<0>透過聲音，重新連繫你的生活。</0>",
+      "image": "./story.jpg"
+    },
+    "nav": {
+      "links.0": "使命",
+      "links.1": "你的聽力護理專家",
+      "links.2": "HearGo的核心理念",
+      "links.3": "最新資訊"
+    },
+    "mission": {
+      "title": "使命",
+      "content": "HearGo的使命以「連繫」為重心，將即時、全面的聽力護理服務帶到聽障人士家中，幫助他們打破聽障造成的溝通隔膜，改善生活，重新與家人、朋友和世界接軌。",
+      "image": "./team.jpg",
+      "card.slogan": "打破距離界限，超越您所想所聽！",
+      "card.button": "了解HearGo的服務流程"
+    },
+    "team": {
+      "title": "你的聽力護理<0>專家團隊</0>",
+      "members.0.name": "Vincent Yau",
+      "members.1.name": "Cherry Chan",
+      "members.2.name": "Eugena Kok",
+      "members.3.name": "Alanna Siu",
+      "members.0.title": "臨床聽力學家",
+      "members.1.title": "臨床聽力學家",
+      "members.2.title": "臨床聽力學家",
+      "members.3.title": "助聽器驗配師",
+      "members.0.quote": "不只是你的聽力護理專家，更想成為你的朋友，細心聆聽你的需要，帶給你貼心、可靠、專業的服務。",
+      "members.1.quote": "生命的意義不只在乎尋找快樂，更要盡力為他人的生命帶來正面的改變。",
+      "members.2.quote": "真正貼心的服務除了提供專業知識和技能，更是細心聆聽，與你同行。",
+      "members.3.quote": "設身處地，走多一步，讓你自信地聆聽世界",
+      "members.0.image": "./team-member1.jpg",
+      "members.1.image": "./team-member2.jpg",
+      "members.2.image": "./team-member3.jpg",
+      "members.3.image": "./team-member4.jpg"
+    },
+    "values": {
+      "title": "HearGo品牌價值",
+      "slogan": "打破傳統聽力護理概念，帶來<0>嶄新體驗</0>",
+      "content": "HearGo將科技融入聽力護理，創立香港首個聽力服務網上預約平台，提供個人化的上門服務及遙距支援，為聽障人士及其家人帶來最方便及舒適的體驗。",
+      "list.0.title": "關懷",
+      "list.1.title": "專業",
+      "list.2.title": "連繫",
+      "list.0.content": "優先考慮你的需要，以專業的態度，用心服務。",
+      "list.1.content": "我們的專家團隊成員已獲得專業認證，將全面、個人化、專業的聽力護理服務帶給更多有需要的人士。",
+      "list.2.content": "為你配對聽力專家，幫助你與家人建立更緊密的關係。",
+      "list.0.image": "./value-1.jpg",
+      "list.1.image": "./value-2.jpg",
+      "list.2.image": "./value-3.jpg"
+    },
+    "contact": {
+      "icon": "./lo-E.png",
+      "slogan": "我們的初心由服務香港超過33年的甘峰醫療保健集團全力支持",
+      "title": "聯絡我們",
+      "form.name": "姓名",
+      "form.phone": "電話",
+      "form.email": "電郵 *",
+      "form.type": "咨詢類別 *",
+      "form.type_dropdowns.0": "上門聽力服務",
+      "form.type_dropdowns.1": "助聽產品",
+      "form.type_dropdowns.2": "合作查詢",
+      "form.type_dropdowns.3": "其他查詢",
+      "form.details": "可在下方輸入詳細資料及查詢：",
+      "form.contacts": "選擇聯絡方式（可多選）",
+      "form.contacts_btns.0": "電子郵件",
+      "form.contacts_btns.1": "聯絡電話",
+      "form.contacts_btns.2": "Whatsapp",
+      "form.submit": "提交",
+      "form.reminder": "點擊\"提交\"即表示你同意我們的使用條款、隱私政策和免責聲明。",
+      "contacts.title": "HearGo 客戶服務",
+      "contacts.phone": "(852) 2893 1102",
+      "contacts.whatsapp": "Whatsapp 按此對話",
+      "contacts.email": "info@HearGo.com.hk",
+      "contacts.facebook": "Facebook",
+      "contacts.hours.0": "星期一至五：上午10時至下午6時",
+      "contacts.hours.1": "星期六：上午10時至下午5時",
+      "contacts.hours.2": "星期日及公眾假期除外",
+      "location.title": "HearGo 支援服務中心（僅供預約）",
+      "location.addresses.0": "香港九龍尖沙咀加連威老道2-6號愛賓商業大廈13樓",
+      "location.addresses.1": "尖沙咀地鐵站B1出口"
+    },
+    "join": {
+      "slogan": "想成為HearGo的自由合作伙伴，為更多聽障人士上門服務？",
+      "contents.0": "HearGo需要更多聽力護理專家加入我們的團隊，擴展服務網絡，讓更多聽障人士足不出戶都可以享受專業、貼心的聽力護理。",
+      "contents.1": "<0>如果你已經獲得專業認證，我們期待盡快與你會面！</0>",
+      "button": "加入我們",
+      "image": "./partner-banner.jpg"
+    },
+    "news": {
+      "title": "最新消息",
+      "blogs.0.date": "Date",
+      "blogs.1.date": "Date",
+      "blogs.2.date": "Date",
+      "blogs.0.tag": "聽力知識",
+      "blogs.1.tag": "聽力知識",
+      "blogs.2.tag": "聽力知識",
+      "blogs.0.title": "體驗多款代理助聽器品牌",
+      "blogs.1.title": "體驗多款代理助聽器品牌",
+      "blogs.2.title": "體驗多款代理助聽器品牌",
+      "blogs.0.preview": "產市時請單由隨收年只是觀系動將毛頭程間運樣的整維；也步興義新，親三司人參標雖。",
+      "blogs.1.preview": "產市時請單由隨收年只是觀系動將毛頭程間運樣的整維；也步興義新，親三司人參標雖。",
+      "blogs.2.preview": "產市時請單由隨收年只是觀系動將毛頭程間運樣的整維；也步興義新，親三司人參標雖。",
+      "blogs.0.more": "查看更多",
+      "blogs.1.more": "查看更多",
+      "blogs.2.more": "查看更多",
+      "blogs.0.image": "./blog-1.jpg",
+      "blogs.1.image": "./blog-2.jpg",
+      "blogs.2.image": "./blog-1.jpg"
+    }
+  },
+  "services": {
+    "title": "上門服務",
+    "banner": {
+      "title": "上門服務",
+      "slogan": "個人化的\n<0>聽力護理體驗</0>",
+      "content": "為自己或家人尋找全面快捷的聽力檢測或助聽器驗配服務？HearGo為你提供專業上門服務，貼心照顧你的聽力健康，讓你輕鬆迎接每天精彩生活。",
+      "image": "./Top-banner.jpg"
+    },
+    "suitable": {
+      "title": "服務對象",
+      "disabled_text": "行動不便或\n無法外出",
+      "disabled_image": "./service-1.png",
+      "recovery_text": "正處於\n治療休養期",
+      "recovery_image": "./service-2.png",
+      "companion_text": "家人未能\n抽空陪診",
+      "companion_image": "./service-3.png",
+      "flexible_text": "工作繁忙需要\n時間靈活的服務",
+      "flexible_image": "./service-4.png"
+    },
+    "why": {
+      "title": "為何選用<0>HearGo</0>？",
+      "professional_icon": "./Service_icon1.svg",
+      "professional_title": "專家團隊",
+      "professional_content": " 所有HearGo聽力專家均已獲得專業認證，並經過嚴格的評估及挑選。",
+      "safe_icon": "./Service_icon2.svg",
+      "safe_title": "安全便捷",
+      "safe_content": "由專家上門為你提供服務，無須到醫院或診所輪候。",
+      "trial_icon": "./Service_icon3.svg",
+      "trial_title": "最真實產品體驗",
+      "trial_content": "即場體驗助聽器在日常生活中的聆聽效果"
+    },
+    "types": {
+      "main_title": "服務種類及流程",
+      "assessment_sign": "服務<0>01</0>",
+      "assessment_title": "了解病歷及聽力檢查",
+      "assessment_content": "了解你的聽力損失狀況或相關病史，與及日常的聽力困擾與需求。\n為你進行純音測驗及中耳阻抗測驗，確定弱聽成因、類型及程度。若有需要，會為你轉介合適的專科醫生。",
+      "assessment_image": "./flow-1.jpg",
+      "selection_sign": "服務<0>02</0>",
+      "selection_title": "選擇助聽器",
+      "selection_content": "依據聽力評估結果及個人需求，為你選配適合的助聽器。",
+      "selection_image": "./flow-2.jpg",
+      "trial_sign": "服務<0>03</0>",
+      "trial_title": "試戴助聽器",
+      "trial_content": "專家會讓你即場體驗助聽器在日常生活中的聆聽效果，並為你調校助聽器至最佳狀態。如需要耳模或指定機型，需支付訂金訂製助聽器。",
+      "trial_image": "./flow-3.jpg",
+      "follow_up_sign": "服務<0>04</0>",
+      "follow_up_title": "售後調校跟進",
+      "follow_up_content": "提供免費清潔保養, 免費遙距調校*及本地維修服務。\n定期跟進聽力狀況，並提供一對一聽力護理專家諮詢。\n*特定機款",
+      "follow_up_image": "./flow-4.jpg",
+      "other_title": "其他服務",
+      "install_title": "安裝無線藍牙配件",
+      "install_content": "配合家居環境及生活需要為你接駁助聽器到電視、電話和其他配件。",
+      "install_image": "./flow-5.jpg",
+      "maintenance_title": "助聽器保養使用教學",
+      "maintenance_content": "教導用家及照顧者如何適當使用和保養助聽器。",
+      "maintenance_image": "./flow-6.jpg",
+      "shipping_title": "速遞收件維修及產品配送",
+      "shipping_content": "可使用順豐速遞到付自取服務。相關費用視符貨品重量 (若要寄付，請先聯絡我們)。",
+      "shipping_image": "./flow-7.jpg"
+    },
+    "pricing": {
+      "title": "服務收費",
+      "trial_title": "聽力專家到診",
+      "trial_content_1": "助聽器驗配及即場試聽",
+      "trial_content_2": "（已包括聽力評估）",
+      "trial_price": "$3,000",
+      "trial_time": "120分鐘",
+      "trial_button": "立即預約",
+      "trial_image": "./web-steps1.1.jpg",
+      "test_title": "聽力專家到診",
+      "test_content_1": "聽力評估及面對面諮詢",
+      "test_content_2": " ",
+      "test_price": "$1,800",
+      "test_time": "60分鐘",
+      "test_button": "立即預約",
+      "test_image": "./web-steps1.2.jpg",
+      "adjustment_title": "聽力專家到診",
+      "adjustment_content_1": "助聽器調較",
+      "adjustment_content_2": " ",
+      "adjustment_price": "$1,800",
+      "adjustment_time": "60分鐘",
+      "adjustment_button": "立即預約",
+      "adjustment_image": "./web-steps1.3.jpg",
+      "tip": "以上價格從2021年1月1日開始生效，如有修改恕不另行通知。",
+      "tip_small": "*服務地區如屬偏遠地區，會額外收取附加費。\n**服務收費根據實際時間的長短而作調整。"
+    },
+    "consult": {
+      "title": "15分鐘免費諮詢聽力專家 ",
+      "content": "只需提供個人資料預約時間，專家會親自致電回覆",
+      "action": "立即聯絡我們諮詢服務！",
+      "image": "./consult-banner.png"
+    },
+    "booking": {
+      "title": "如何預約",
+      "phone": "./step_phone.png",
+      "step_1_title": "Step1：選擇服務時間",
+      "step_1_content": "登上HearGo網上預約平台，選擇上門服務種類，日期及時間。",
+      "step_1_icons": "./step_icons_1.png",
+      "step_2_title": "Step2：提交個人資料",
+      "step_2_content": "提交資料後，HearGo會為你配對合適的聽力護理專家。專家會於1個工作天內親自致電聯絡，即時確認收費及服務。",
+      "step_2_icons": "./step_icons_2.png",
+      "step_3_title": "Step3：上門進行服務",
+      "step_3_content": "服務當日，HearGo的聽力護理專家將親臨指定地點提供服務，讓你無論是在家中、診所或酒店，都可舒適地享受專業聽力服務。",
+      "step_3_icons": "./step_icons_3.png",
+      "step_4_title": "Step4：管理電子聽力報告",
+      "step_4_content": "預約HearGo服務時，你同時亦需註冊一個網上賬戶。登入HearGo網上平台後，即可檢視你所持有的預約記錄、聽力報告及帳單。",
+      "step_4_icons": "./step_icons_4.png"
+    },
+    "payments": {
+      "title": "支付方式",
+      "content": "你可於預約時選擇付款方式，並在完成服務後支付協定費用。所有服務費用均於確認預約詳情時一同確認。未經你的同意前，HearGo不會進行任何轉賬。",
+      "method_1": "方法一：信用卡付款",
+      "method_2": "方法二：FPS轉數快／銀行轉帳",
+      "method_3": "方法三：Payme轉帳",
+      "method_4": "方法四：支票"
+    },
+    "faqs": {
+      "title": "常見問題",
+      "question_1": "上門服務提供的聽力測試，符合一般診所聽力測試的標準嗎？",
+      "answer_1": "符合。我們所有便攜式專門儀器都達到一般檢測儀器的標準，上門進行的聽力測試步驟亦與一般測試相同。為確保測試準確度，我們在開始測試前亦會即場進行環境評估，確保環境聲量不會超出可接受範圍；有需要時聽力專家亦會採用入耳式耳筒，將環境聲音的影響減至最低。",
+      "question_2": "選用上門服務對我來說有壞處／不足之處嗎？",
+      "answer_2": "沒有。相反，讓我們上門為你進行聽力服務的好處更多。若聽力測試結果顯示你需要配戴助聽器，你可即場於家中熟悉的生活環境試聽效果。不少用家都反映，在家中進行測試令他們感覺更輕鬆。",
+      "question_3": "服務所需時間有多久？",
+      "answer_3": "視乎服務內容，最長每次180分鐘。",
+      "question_4": "我應該多久預約檢查一次？",
+      "answer_4": "如果你是正在配載助聽器的聽障人士，我們建議你每年進行一次聽力測試，監察聽力受損程度有否惡化，並確保助聽器的設定調校至最佳。",
+      "question_5": "到診費用包括什麼？",
+      "answer_5": "聽力專家到診費用已包括上門諮詢及服務費用、交通費用，及電子簡易聽力報告。",
+      "question_6": "上門服務是否只會有一位專家到診？",
+      "answer_6": "上門專家人數根據服務種類而定。例如，驗配助聽器時，我們會派出兩位專家到診。",
+      "question_7": "如果我想預約於同一地點為兩人提供服務，你們如何收費？",
+      "answer_7": "我們提供單對單專屬服務，因此服務時間和診金會因應服務項目及人數而有所增加。例如，同一地點為兩位客人進行聽力檢查，總費用為$1800（60分鐘）x 2 = $3200（共120分鐘）。請於預約時表明服務人數。"
+    },
+    "contact": {
+      "title": "歡迎院舍、外展機構或醫院、診所致電查詢合作計劃！",
+      "button": "查詢表格",
+      "image": "./contact-banner.jpg"
+    }
+  },
+  "products": {
+    "title": "助聽器"
+  },
+  "knowledge": {
+    "title": "聽力知識",
+    "subtitle": "與你分享一系列關於聽力健康的文章",
+    "all_article": "所有文章",
+    "what_is_hearing_impairment": "什麼是聽力障礙",
+    "choose_hearing_aid": "如何選配助聽器",
+    "user_guide": "助聽器使用指南",
+    "maintenance": "保養清潔及維修",
+    "connect_accessories": "連接配件",
+    "bottm_title": "立即預約在家聽力護理服務",
+    "bottm_subtitle": "專家上門服務包括",
+    "bottom_service1": "專業耳道檢查及聽力評估",
+    "bottom_service2": "專家諮詢及提供方案",
+    "bottom_service3": "即場試戴代理助聽器",
+    "btn_contact": "立即聯絡HearGo專家團隊",
+    "phone_consult": "免費電話諮詢"
+  },
+  "booking": {
+    "step": "步驟",
+    "choose_services": "選擇服務",
+    "choose_date": "選擇日期時間",
+    "provide_info": "提供聯絡資料",
+    "confirm_booking": "確認預約",
+    "provide_payment": "輸入付款方式",
+    "btn_cont": "繼續",
+    "step01": {
+      "title": "請問您需要甚麼服務？",
+      "subtitle": "聽力專家到診",
+      "minute": "分鐘"
+    },
+    "step02": {
+      "title": "選擇日期時間",
+      "duration": "已預約",
+      "minute": "分鐘"
+    },
+    "step03": {
+      "title": "提供聯絡資料",
+      "contact_person": "聯絡人姓名",
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "phone": "電話",
+      "email": "電郵",
+      "male": "男",
+      "female": "女",
+      "address": "個人住址",
+      "room": "室",
+      "floor": "樓",
+      "block": "座",
+      "house": "屋苑/街道",
+      "district": "地區",
+      "zone": "區域",
+      "use_other_address": "使用其他地址",
+      "login_to_continue": "登入以繼續",
+      "continue_to_use_guest": "或 以訪客身份繼續",
+      "alert_message": "錯誤"
+    },
+    "step04": {
+      "title": "確認預約",
+      "personal_info": "個人資料",
+      "address": "地點",
+      "services": "服務種類",
+      "total": "共",
+      "min_of_service": "分鐘服務",
+      "datetime": "日期時間",
+      "remark": "Remark",
+      "agree_service": "同意上門服務",
+      "statement1": "謹此聲明本人已年滿18歲",
+      "statement2": "沒有正接受家居檢疫人士",
+      "alert_message": "請確認"
+    },
+    "step05": {
+      "title": "輸入付款方式",
+      "stripe": "信用卡",
+      "stripe_description": "授權信用卡，服務後付款",
+      "other": "其他付款方式",
+      "other_description": "我們接受現金、FPS、payme及支票付款，請將付款收據傳送去電話"
+    },
+    "confirmed": {
+      "title": "預約已確認，你將會收到確認電郵。",
+      "fill_survey": "填寫問卷，讓專家為您提供更精準的服務",
+      "btn_fill_survery": "填寫問卷",
+      "click": "點擊",
+      "here": "這裡",
+      "to_see_record": "查看預約紀錄"
+    }
+  },
+  "member": {
+    "login": {
+      "title": "歡迎回來",
+      "subtitle": "登入",
+      "phone": "手機號碼",
+      "password": "密碼",
+      "remember_me": "記住用戶名",
+      "forget_password": "忘記密碼",
+      "btn_login": "登入",
+      "btn_register": "註冊",
+      "statement": "如你提交個人資料，將被視為你已閱讀、理解、同意並承諾遵守通用條款和條件 ，使用條款 及 HearGo網路私隱政策。",
+      "alert": "電話或密碼錯誤"
+    },
+    "register": {
+      "phone": {
+        "title": "立即加入",
+        "subtitle": "請查看手機短訊",
+        "phone": "手機號碼",
+        "verify_code": "驗證碼",
+        "send_code": "發送",
+        "password": "密碼",
+        "password_hint": "密碼必需有至少8個字元，一個大寫字母，一個小寫字母，一個數字",
+        "btn_login": "登入",
+        "btn_register": "註冊",
+        "statement": "如你提交個人資料，將被視為你已閱讀、理解、同意並承諾遵守通用條款和條件 ，使用條款 及 HearGo網路私隱政策。",
+        "alert": "資料錯誤"
+      },
+      "information": {
+        "title": "請輸入你的個人資料",
+        "firstname": "名字",
+        "lastname": "姓氏",
+        "email": "電郵地址",
+        "dob": "生日",
+        "male": "男",
+        "female": "女",
+        "receive_newsletter": "不願意收取HearGo的郵件",
+        "receive_sms": "不願意收取HearGo的短訊",
+        "btn_register": "完成並提交",
+        "alert": "資料錯誤"
+      }
+    },
+    "profile": {
+      "list": {
+        "info": "帳戶資料",
+        "address": "個人住址",
+        "booking": "預約記錄",
+        "product": "產品資料",
+        "battery": "電池換領券",
+        "report": "聽力報告",
+        "logout": "登出"
+      },
+      "info": {
+        "hi": "您好，",
+        "welcome_back": "歡迎你回來！",
+        "account_info": "帳戶資料",
+        "account_setting": "帳戶設定",
+        "success_message": "更新成功",
+        "alert_message": "錯誤",
+        "email": "電郵",
+        "firstname": "姓名",
+        "lastname": "姓氏",
+        "gender": "性別",
+        "male": "男",
+        "female": "女",
+        "dob": "生日",
+        "btn_save": "儲存",
+        "statement": "如無法更新以上資料或遇到任何問題，請與我們的客戶服務主任聯絡",
+        "change_password": "更改密碼",
+        "old_password": "舊密碼",
+        "new_password": "新密碼",
+        "reenter_password": "重新輸入密碼",
+        "show_password": "顯示密碼",
+        "btn_save_password": "儲存"
+      },
+      "address": {
+        "title": "個人住址",
+        "room": "室",
+        "floor": "樓",
+        "block": "座",
+        "house": "屋苑/街道",
+        "district": "地區",
+        "zone": "區域",
+        "default": "預設地址",
+        "btn_add": "新增其他住址",
+        "success_message": "更新成功",
+        "alert_message": "錯誤"
+      },
+      "booking": {
+        "title": "預約記錄",
+        "date": "預約日期",
+        "time": "預約時間",
+        "services": "服務",
+        "service_time": "服務時間",
+        "minutes": "分鐘"
+      }
+    }
+  }
+}

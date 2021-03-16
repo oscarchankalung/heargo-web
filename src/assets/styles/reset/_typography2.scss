@@ -1,0 +1,46 @@
+// main
+h1 {
+  @include typo-title;
+}
+h2 {
+  @include typo-subtitle;
+}
+h3 {
+  @include typo-heading;
+}
+h4 {
+  @include typo-subheading;
+}
+p > b {
+  @include typo-content-bold;
+}
+p {
+  @include typo-content-normal;
+}
+p.light {
+  @include typo-content-light;
+}
+span.light {
+  @include typo-content-light;
+}
+p.note {
+  @include typo-note;
+}
+p.mono {
+  @include typo-mono;
+}
+p.action {
+  @include typo-action;
+}
+button {
+  @include typo-button;
+}
+p.sign {
+  @include typo-sign;
+}
+div.icon {
+  @include typo-icon;
+}
+p + p {
+  margin-top: 1rem;
+}

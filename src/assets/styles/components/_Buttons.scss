@@ -1,0 +1,62 @@
+.btn {
+  &:hover,
+  &:focus,
+  &:not(:disabled):not(.disabled):active:focus {
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  width: 170px;
+  padding: 0.6em 3em;
+}
+
+.btn-primary {
+  @include button-variant($white, $primary, $primary);
+}
+.btn-outline-white {
+  @include button-variant($white, transparent, $white);
+}
+.btn-outline-secondary {
+  @include button-variant($secondary, transparent, $secondary);
+}
+
+.btn-outline-primary {
+  @include button-variant($white, transparent, $primary);
+}
+
+.btn-round {
+  @include button-shape(2rem);
+  width: auto;
+  padding: 0.6rem 3rem;
+  @media (max-width: $breakpoints-sm) {
+    width: 100%;
+    padding: 0.6rem 0;
+  }
+}
+
+.btn-circle {
+  @include button-shape(2rem);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.btn-semi-round {
+  @include button-shape(1rem);
+  width: auto;
+  padding: 0.6em 1em;
+}
+
+.btn-square {
+  @include button-shape(0);
+  width: 100%;
+  height: 70px;
+  .button-icon {
+    @include typo-nav-icon;
+    margin: 0 5px 4px 0;
+  }
+}
+
+.btn-long {
+  width: 200px;
+}

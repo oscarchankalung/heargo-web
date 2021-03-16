@@ -1,0 +1,85 @@
+#news {
+  background-color: $light;
+  padding: 4rem 0;
+  overflow: hidden;
+  @media (max-width: $breakpoints-sm) {
+    padding: 2rem 0;
+  }
+  .title {
+    @include typo-subtitle;
+  }
+  .swiper-container {
+    position: static;
+    width: 100%;
+    overflow: visible;
+    @media (max-width: $breakpoints-md) {
+      width: calc(100% - 60px);
+      margin: 0 0 0 60px;
+    }
+    @mixin swiper-control {
+      position: absolute;
+      left: -90px;
+      right: auto;
+      z-index: 2;
+      @media (max-width: $breakpoints-md) {
+        left: 0;
+      }
+      &::after {
+        content: none;
+      }
+    }
+    .swiper-button-prev {
+      @include swiper-control;
+      @include carousel-control-icon('../../images/home/icons/home_Arrow-white-left.svg');
+      top: calc(50% - 30px);
+      transform: translateY(-50%);
+    }
+    .swiper-button-next {
+      @include swiper-control;
+      @include carousel-control-icon('../../images/home/icons/home_Arrow-white-right.svg');
+      top: calc(50% + 30px);
+      transform: translateY(-50%);
+    }
+    .swiper-wrapper {
+      .swiper-slide {
+        transition: all 0.2s ease-in-out;
+        .card {
+          border: none;
+          border-radius: 2rem;
+          box-shadow: 0px 0px 20px 0px rgb(220, 220, 220);
+          .card-img-top {
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+          }
+          .card-body {
+            border-bottom-left-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+            .date {
+              @include typo-content-light;
+              color: $secondary;
+            }
+            .tag {
+              @include typo-content-light;
+              color: $primary;
+              background-color: $light;
+              border-radius: 2rem;
+            }
+            .title {
+              @include typo-heading;
+            }
+            .preview {
+              @include typo-content-light;
+            }
+            .action {
+              @include typo-action;
+              @include action-icon;
+            }
+          }
+        }
+        &.swiper-slide-prev {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

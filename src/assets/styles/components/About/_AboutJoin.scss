@@ -1,0 +1,22 @@
+#join {
+  @include background-image;
+  height: 521px;
+  width: 100%;
+  @media (max-width: $breakpoints-md) {
+    height: 429px;
+    background-position: top right -90px;
+  }
+  @media (max-width: $breakpoints-sm) {
+    background-position: top left;
+  }
+  .join-card {
+    height: 100%;
+    @include flex-container(column, center, flex-start);
+    .slogan {
+      @include typo-heading;
+    }
+    .content {
+      @include typo-content-light;
+    }
+  }
+}

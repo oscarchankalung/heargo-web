@@ -1,0 +1,112 @@
+.home-products {
+  width: 100%;
+  padding: 2.5rem;
+  overflow: visible;
+  @media (min-width: $breakpoints-lg + 1) {
+    padding: 3rem 6rem;
+  }
+  .product-card {
+    @media (min-width: $breakpoints-lg + 1) {
+      margin-right: 120px;
+    }
+    .title {
+      @include typo-subtitle;
+    }
+    .text {
+      @include typo-content-light;
+    }
+    .action {
+      @include action-icon;
+    }
+  }
+  .product-slides {
+    .swiper-container {
+      overflow: visible;
+      z-index: auto;
+      position: static;
+      width: calc(100% - 20px - 60px);
+      margin-left: 20px;
+      @media (min-width: $breakpoints-sm) {
+        position: relative;
+        width: calc(100% - 280px - 80px);
+        margin-left: 280px;
+        margin-right: 80px;
+      }
+      @media (min-width: $breakpoints-lg + 1) {
+        width: calc(100% - 180px - 220px);
+        margin-left: 180px;
+        margin-right: 220px;
+      }
+      @mixin swiper-control {
+        position: absolute;
+        right: 0;
+        left: auto;
+        z-index: 2;
+        @media (min-width: $breakpoints-sm) {
+          right: -60px;
+        }
+        &::after {
+          content: none;
+        }
+      }
+      .swiper-button-prev {
+        @include swiper-control;
+        @include carousel-control-icon(
+          "../../../assets/images/home/icons/home_Arrow-white-right.svg"
+        );
+        top: 150px;
+      }
+      .swiper-button-next {
+        @include swiper-control;
+        @include carousel-control-icon(
+          "../../../assets/images/home/icons/home_Arrow-white-left.svg"
+        );
+        top: 200px;
+      }
+      .swiper-wrapper {
+        position: relative;
+        .swiper-slide {
+          transition: all .2s ease-in-out;
+          img {
+            visibility: hidden;
+            height: 280px;
+            width: 100%;
+            object-fit: contain;
+            @media (min-width: $breakpoints-lg + 1) {
+            }
+          }
+          .caption {
+            visibility: hidden;
+            position: relative;
+            width: 100vw;
+            padding: 0 2.5rem;
+            left: 100px;
+            @media (min-width: $breakpoints-sm) {
+              position: static;
+              width: 100%;
+              padding: 0;
+            }
+            @include flex-container(column, flex-start, center);
+            .text {
+              @include typo-content-normal;
+            }
+          }
+          &.swiper-slide-active {
+            img {
+              visibility: visible;
+              transform: scale(1.4);
+            };
+            .caption {
+              visibility: visible;
+            }
+          }
+          &.swiper-slide-next {
+            img {
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}

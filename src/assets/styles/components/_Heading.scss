@@ -1,0 +1,9 @@
+.heading {
+  @include flex-container(column, center, center);
+  @include typo-subtitle;
+  text-align: center;
+  padding: 3rem 0;
+  @media (max-width: $breakpoints-md) {
+    padding: 2rem 0;
+  }
+}

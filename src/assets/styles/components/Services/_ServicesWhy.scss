@@ -1,0 +1,28 @@
+.reason-bg {
+  background: linear-gradient(0, white, white 80px, #f1f0f4 80px);
+
+  .con-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .con {
+      text-align: center;
+      width: 270px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 7px 7px 30px rgba(163, 114, 114, 0.16);
+      padding: 1.75rem;
+
+      .icon {
+        width: 55px;
+        height: 55px;
+      }
+
+      .tit {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}

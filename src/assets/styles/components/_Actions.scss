@@ -1,0 +1,73 @@
+$border: 2px solid $white;
+
+.action-container {
+  @include flex-container(row, center, center);
+  @media (max-width: $breakpoints-md - 1) {
+    @include flex-container(column, center, center);
+  }
+  .action {
+    @include flex-container(column, center, center);
+    @include background-image;
+    flex-grow: 1;
+    width: 100%;
+    padding: 2.5rem;
+    .subtitle {
+      @include typo-content-normal;
+      color: $white;
+    }
+    .title {
+      @include typo-heading;
+      color: $white;
+    }
+    .text {
+      @include typo-content-light;
+      color: $white;
+    }
+    .outline-button {
+      @include typo-button;
+    }
+  }
+}
+
+.small-action-container {
+  @extend .action-container;
+  .small-action {
+    @extend .action;
+    height: 240px;
+    border-top: $border;
+    border-bottom: $border;
+    @media (max-width: $breakpoints-md - 1) {
+      height: auto;
+      border-top: none;
+      border-bottom: none;
+    }
+    .title {
+      text-align: center;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+  .small-action + .small-action {
+    border-left: $border;
+    @media (max-width: $breakpoints-md - 1) {
+      border-left: none;
+      border-top: $border;
+    }
+  }
+}
+
+.large-action-container {
+  @extend .action-container;
+  .large-action {
+    @extend .action;
+    @include flex-container(column, center, flex-start);
+    @include background-image;
+    height: 400px;
+    padding-left: 12vw !important;
+    .title {
+      @include typo-subtitle;
+      color: $white;
+    }
+  }
+}

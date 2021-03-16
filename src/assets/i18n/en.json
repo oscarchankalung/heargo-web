@@ -1,0 +1,670 @@
+{
+  "nav": {
+    "about": "About HearGo",
+    "about_dropdown_mission": "Mission",
+    "about_dropdown_team": "Our Professional Team",
+    "about_dropdown_values": "HearGo Core Values",
+    "about_dropdown_news": "Latest News",
+    "services": "Visting service",
+    "products": "Hearing aid brands",
+    "products_dropdown_Hansaton_top": "./product-Hansaton-product.png",
+    "products_dropdown_Hansaton_bottom": "./product-Hansaton-logo.png",
+    "products_dropdown_Phonak_top": "./product-Phonak-product.png",
+    "products_dropdown_Phonak_bottom": "./product-Phonak-logo.jpg",
+    "products_dropdown_accessories_top": "./product-accessory.png",
+    "products_dropdown_accessories_bottom": "配件及手機app",
+    "products_dropdown_battery_top": "./product-battery.jpg",
+    "products_dropdown_battery_bottom": "電池及清潔保養產品",
+    "products_dropdown_all": "查看全部品牌",
+    "knowledge": "Hearing Knowledge",
+    "contacts": "Contact Us",
+    "booking": "Book Now",
+    "language_zh": "中",
+    "language_en": "en",
+    "login": "Log In"
+  },
+  "footer": {
+    "about_HearGo": "關於HearGo",
+    "brand_story": "品牌故事",
+    "mission": "使命",
+    "experts": "你的聽力護理專家團隊",
+    "value": "HearGo品牌價值",
+    "contact_us": "聯絡我們",
+    "services": "上門服務",
+    "workflow": "服務種類及流程",
+    "service_charge": "服務收費",
+    "how_to_book": "如何預約",
+    "payment": "支付方式",
+    "q_and_a": "常見問題",
+    "products": "助聽器",
+    "handsaton": "德國漢莎通助聽器",
+    "phonak": "瑞士峰力Phonak",
+    "accessory": "配件及手機app",
+    "battery": "電池及清潔保養產品",
+    "knowledge": "聽力知識",
+    "what_is_hearing_impairment": "什麼是聽力障礙",
+    "choose_hearing_aid": "如何選配助聽器",
+    "user_guide": "助聽器使用指南",
+    "maintenance": "保養清潔及維修",
+    "connect_accessories": "連接配件",
+    "boking_now": "立即預約",
+    "privacy": "私隱條例",
+    "t_and_c": "條款和條件",
+    "face_problem": "遇到問題？",
+    "find_us": "立即搵我地嘅客服團隊啦！",
+    "phone": "2893 1102",
+    "whatsapp": "WhatsApp 按此",
+    "btn_contact": "聯絡客服",
+    "right": "© HearGo. All rights reserved."
+  },
+  "home": {
+    "title": "Home",
+
+    "carousels": {
+      "1_testimonial_title": "Carrie /\nDaughter of 102-year-old Mrs. Lam",
+      "1_testimonial_text": "Audiologist Vincent:\nHe is kind and explained everything clearly.\nHome visit service makes life easier for\nelderly and caretakers.\nI will recommend it to my friends!",
+      "1_testimonial_icon": "./icons/home_Arrow-right.svg",
+      "1_image_mobile": "./home-carousel-en-1-mobile.png",
+      "2_image_mobile": "./home-carousel-en-2-mobile.png",
+      "3_image_mobile": "./home-carousel-en-3-mobile.png",
+      "1_image_desktop": "./home-carousel-en-1-desktop.png",
+      "2_image_desktop": "./home-carousel-en-2-desktop.png",
+      "3_image_desktop": "./home-carousel-en-3-desktop.png"
+    },
+    "smallActions": [
+      {
+        "title": "Service at your doorstep",
+        "text": "3-min easy online booking.",
+        "button": "Book Now",
+        "image": "./web-big-button1.jpg"
+      },
+      {
+        "title": "Free Consultation with our hearing care professional",
+        "text": "Leave your enquiry here and we will get back to you within 1 business day",
+        "button": "Leave Contacts",
+        "image": "./web-big-button2.jpg"
+      }
+    ],
+    "features": {
+      "heading": "Why <0>HearGo</0>?",
+      "list": [
+        {
+          "image": "./web-feature1.jpg",
+          "card": {
+            "sign": "FEATURE<0>01</0>",
+            "title": "Stay home. Stay safe",
+            "text": "Travelling to and from traditional hearing centres for hearing tests, hearing aids fine-tuning can be a hustle. HearGo sends experts to your door. Enjoy an all-round personalized hearing care service at the comfort of your home.",
+            "action": "Service procedures"
+          }
+        },
+        {
+          "image": "./web-feature2.png",
+          "card": {
+            "sign": "FEATURE<0>02</0>",
+            "title": "Schedule an appointment at your convenience",
+            "text": "Online booking is as simple as ABC - pick your service, date and time - voilà! You will receive a confirmation call within 1 business day.",
+            "action": "How to make a booking in 5 steps"
+          }
+        },
+        {
+          "image": "./web-feature3.png",
+          "card": {
+            "sign": "FEATURE<0>03</0>",
+            "title": "One-to-one service. Consult a Hearing Care Professional for free",
+            "text": "Hearing Care Professionals are always unreachable? Not necessarily! If you are unsure what kind of service you need, you can reach HearGo certified Hearing Care Professional by phone or WhatsApp for a free consultation. They will suggest the most suitable service according to your needs.",
+            "action": "HearGo Professional Team",
+            "button": "Free phone consultation"
+          }
+        },
+        {
+          "image": "./web-feature4.jpg",
+          "card": {
+            "sign": "FEATURE<0>04</0>",
+            "title": "Transparent pricing. Can pay online with a single click",
+            "text": "From viewing pricing details to final payment, all can be done on HearGo's online platform. You can also enjoy the flexibility to pay instantly when you make the booking, or after the service is completed. Digital receipts help you keep track of all payments. You can always contact customer support right away when you have any problems.",
+            "action": "Payment method"
+          }
+        },
+        {
+          "image": "./web-feature5.png",
+          "card": {
+            "sign": "FEATURE<0>05</0>",
+            "title": "Digitised audiology reports at your fingertips",
+            "text": "No more fumbling around for health records- they are accessible anytime, anywhere online. Hearing health data, product warranty, booking records… all in one place.",
+            "action": "Log in / Register"
+          }
+        }
+      ]
+    },
+    "services": {
+      "subtitle": "One-go home visit solution:\n<0>hearing assessment, hearing aid fitting and adjustment services:</0>",
+      "action": "More services",
+      "list": [
+        {
+          "image": "./web-steps1.jpg",
+          "sign": "<0>01</0>",
+          "title": "Hearing test",
+          "text": "Access your ear conditions and hearing level"
+        },
+        {
+          "image": "./web-steps2.jpg",
+          "sign": "<0>02</0>",
+          "title": "Hearing aid selection",
+          "text": "Select the appropriate hearing aid(s) according to your preference and needs with the help of an expert"
+        },
+        {
+          "image": "./web-steps3.jpg",
+          "sign": "<0>03</0>",
+          "title": "Instant Trial",
+          "text": "Try out the hearing aids in your living environment"
+        },
+        {
+          "image": "./web-steps4.jpg",
+          "sign": "<0>04</0>",
+          "title": "Fine-tuning and repair plan",
+          "text": "Up to 4 years warranty period"
+        }
+      ]
+    },
+    "products": {
+      "subtitle": "Explore the latest models from our selected hearing aids provider",
+      "text": "Explore different styles of hearing aids:\nin-the-ear / behind-the-ear / Single-sided deafness",
+      "action": "Hearing aid brands",
+      "button": "Learn more",
+      "list": [
+        {
+          "image": "./web-product1.png",
+          "text": "Best seller: HANSATON AQ Sound XC Pro R"
+        },
+        {
+          "image": "./web-product2.png",
+          "text": "Product 2"
+        },
+        {
+          "image": "./web-product3.png",
+          "text": "Product 3"
+        }
+      ],
+      "productDetail": {
+        "platform": "Platform",
+        "price": "Price (per unit)",
+        "warranty": "Warranty",
+        "suitableFor": "Suitable For",
+        "firstTimeUsers": "First time users",
+        "premiumLevel": "Premium level",
+        "advancedTechnology": "Advanced technology level",
+        "specification": "Product specification",
+        "style": "Style",
+        "power": "Power",
+        "level": "Level",
+        "features": "Product features",
+        "noiseReduction": "Noise-reduction",
+        "automatic": "Automatic",
+        "volumeControlBtn": "Volume control button",
+        "waterResistance": "Dust and water resistance",
+        "handsFreeVoiceCalls": "Hands-free voice calls",
+        "directBluetooth": "Bluetooth connection accessory Direct Bluetooth connections",
+        "tvStreaming": "TV streaming accessory TV streaming with designated accessory",
+        "voiceCallStreaming": "Voice call streaming",
+        "suitableEnv": "Suitable environment",
+        "atHome": "At Home",
+        "citryStreets": "City streets",
+        "restaurant": "Restaurants",
+        "meeting": "Meetings",
+        "outdoor": "Outdoors",
+        "conversationsInCar": "Conversations in car",
+        "church": "Church",
+        "appearance": "Appearance",
+        "design": "Case design",
+        "personalizedNeed": "Personalised need",
+        "mobileAppSupport": "Mobile app support",
+        "powerfulOutput": "Powerful output",
+        "ssd": "Single-side deafness (SSD)",
+        "remoteSupport": "Remote support"
+      }
+    },
+    "largeAction": {
+      "subtitle": "Not sure whether you need a hearing care service?",
+      "title": "Ask our hearing care\nprofessional!",
+      "text": "Call us at 2893 1102. All enquiries will be followed up\nwithin 1 business day.",
+      "button": "Contact us now",
+      "image": "./web-enquiry.jpg"
+    },
+    "contact_form": {
+      "title": "馬上諮詢！",
+      "subtitle": "請留下你的姓名、聯絡電話、電郵及回覆方法。",
+      "name": "姓名",
+      "phone": "聯絡電話",
+      "email": "電子郵件",
+      "btn_submit": "提交",
+      "success_msg": "已成功提交"
+    }
+  },
+  "about": {
+    "story": {
+      "title": "Brand Story",
+      "slogan": "Connect you to the <0>world</0>, right here.",
+      "contents.0": "HearGo is a pioneering online hearing care platform that brings hearing care professionals straight to your door. By helping hearing impaired patients reconnect to their family and friends, HearGo aims to enrich people's life via meaningful and valuable connections.",
+      "image": "./story.jpg"
+    },
+    "nav": {
+      "links.0": "Mission",
+      "links.1": "Our Professional Team",
+      "links.2": "Core Values",
+      "links.3": "Latest News"
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "HearGo aspires to build a better world by connections. HearGo strives to reach out to connecting those in need and suffering from hearing disabilities by providing immediate, comprehensive and accessible hearing care solution.",
+      "image": "./team.jpg",
+      "card.slogan": "Go beyond！Bring better hearing to your door.",
+      "card.button": "Learn more about HearGo's service process."
+    },
+    "team": {
+      "title": "Our <0>Professional Team</0>",
+      "members.0.name": "Vincent Yau",
+      "members.1.name": "Cherry Chan",
+      "members.2.name": "Eugena Kok",
+      "members.3.name": "Alanna Siu",
+      "members.0.title": "Clinical Audiologist",
+      "members.1.title": "Clinical Audiologist",
+      "members.2.title": "Clinical Audiologist",
+      "members.3.title": "Hearing Instrument Specialist",
+      "members.0.quote": "More than just your audiologist - but also your close friend, catering to your needs to make you feel at home.",
+      "members.1.quote": "The purpose in life is not just to be happy–but also to matter, to make a difference in someone's life",
+      "members.2.quote": "Serve not only with professional skills, but also with listening ears and a caring heart.",
+      "members.3.quote": "Empower people by stepping into their shoes and see beyond their needs.",
+      "members.0.image": "./team-member1.jpg",
+      "members.1.image": "./team-member2.jpg",
+      "members.2.image": "./team-member3.jpg",
+      "members.3.image": "./team-member4.jpg"
+    },
+    "values": {
+      "title": "Core Values",
+      "slogan": "HearGo, <0>revolutionising</0> the hearing care industry with technology",
+      "content": "With digitalisation, personalisation and convenience as the foundation, HearGo strives to improve hearing care services with technology and innovation. This is the first-ever online platform in Hong Kong, providing comprehensive home visit service and remote support for those suffering from hearing loss.",
+      "list.0.title": "Caring",
+      "list.1.title": "Professional",
+      "list.2.title": "Connect those in need",
+      "list.0.content": "As a professional hearing care provider, your needs is always our top priority.",
+      "list.1.content": "With a team of Hearing Care Professionals, we bring convenience, personalized, and high-standard hearing care service to those in need.",
+      "list.2.content": "With the help of our hearing care professionals, you can enjoy a better relationship with family.",
+      "list.0.image": "./value-1.jpg",
+      "list.1.image": "./value-2.jpg",
+      "list.2.image": "./value-3.jpg"
+    },
+    "contact": {
+      "icon": "./lo-E.png",
+      "slogan": "With the full support from KAM Healthcare Group, serving Hong Kong for over 33 years.",
+      "title": "Contact us",
+      "form.name": "Name",
+      "form.phone": "Phone number",
+      "form.email": "E-mail",
+      "form.type": "Type of inquiry",
+      "form.type_dropdowns.0": "Home Visit Hearing Test",
+      "form.type_dropdowns.1": "Hearing Product",
+      "form.type_dropdowns.2": "Cooperation Enquires",
+      "form.type_dropdowns.3": "Other Enquiries",
+      "form.details": "Provide details of your inquiry below",
+      "form.contacts": "Contact method (Multiple selection)",
+      "form.contacts_btns.0": "E-mail",
+      "form.contacts_btns.1": "Phone",
+      "form.contacts_btns.2": "WhatsApp",
+      "fomr.submit": "submit",
+      "form.reminder": "By clicking \"submit\", you agree to our Terms of Use, Privacy Policy and Disclaimer.",
+      "contacts.title": "HearGo Service",
+      "contacts.phone": "(852) 2893 1102",
+      "contacts.whatsapp": "WhatsApp us here",
+      "contacts.email": "info@HearGo.com.hk",
+      "contacts.facebook": "Facebook",
+      "contacts.hours.0": "Monday - Friday: 10:00 am - 6:00 pm",
+      "contacts.hours.1": "Saturday: 10:00am - 5:00 pm",
+      "contacts.hours.2": "Except Sundays and Public Holidays",
+      "location.title": "HearGo Service Centre (For reservations only)",
+      "location.addresses.0": "13/F, Albion Plaza, 2-6 Granville Rd, Tsim Sha Tsui, Kowloon, Hong Kong",
+      "location.addresses.1": "Tsim Sha Tsui MTR Exit B1"
+    },
+    "join": {
+      "slogan": "Become a partner of HearGo. Expand our hearing health coverage.",
+      "contents.0": "We are looking for hearing care professionals to join HearGo Team. With a bigger team, we can bring our best hearing care sevices to more homes.",
+      "contents.1": "<0>Already a certified hearing care professional? We can't wait to meet you!</0>",
+      "button": "Join us",
+      "image": "./partner-banner.jpg"
+    },
+    "news": {
+      "title": "Latest news",
+      "blogs.0.date": "Date",
+      "blogs.1.date": "Date",
+      "blogs.2.date": "Date",
+      "blogs.0.tag": "tag",
+      "blogs.1.tag": "tag",
+      "blogs.2.tag": "tag",
+      "blogs.0.title": "title",
+      "blogs.1.title": "title",
+      "blogs.2.title": "title",
+      "blogs.0.preview": "preview",
+      "blogs.1.preview": "preview",
+      "blogs.2.preview": "preview",
+      "blogs.0.more": "more",
+      "blogs.1.more": "more",
+      "blogs.2.more": "more",
+      "blogs.0.image": "./blog-1.jpg",
+      "blogs.1.image": "./blog-2.jpg",
+      "blogs.2.image": "./blog-1.jpg"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "banner": {
+      "title": "Visiting service",
+      "slogan": "A personalized <0>hearing health service</0>",
+      "content": "Searching for convenient and comprehensive hearing test or hearing aid fitting service? HearGo offers home visit service so that you can enjoy professional hearing care to the best of your convenience.",
+      "image": "./Top-banner.jpg"
+    },
+    "suitable": {
+      "title": "Suitable for",
+      "disabled_text": "Disabled / homebound patients",
+      "disabled_image": "./service-1.png",
+      "recovery_text": "Patients in recovery",
+      "recovery_image": "./service-2.png",
+      "companion_text": "Those without a companion to visit the clinic",
+      "companion_image": "./service-3.png",
+      "flexible_text": "Those who require a flexible service due to work or busy schedule",
+      "flexible_image": "./service-4.png"
+    },
+    "why": {
+      "title": "Why <0>HearGo</0>?",
+      "professional_icon": "./Service_icon1.svg",
+      "professional_title": "Professional team",
+      "professional_content": "All HearGo hearing care professionals are certified",
+      "safe_icon": "./Service_icon2.svg",
+      "safe_title": "Safe and convenient",
+      "safe_content": "Hearing care professionals visit your home––avoid waiting at hospitals or clinics",
+      "trial_icon": "./Service_icon3.svg",
+      "trial_title": "Best trial experience",
+      "trial_content": "Try hearing aids in the comfort of your home"
+    },
+    "types": {
+      "main_title": "Type of service and procedure",
+      "assessment_sign": "Service<0>01</0>",
+      "assessment_title": "Hearing health history and audiological assessment",
+      "assessment_content": "Understanding your hearing health history, current condition and hearing difficulties you are experiencing in everyday life.\nA hearing assessment composed of Pure Tone Audiometry (PTA) and Impedance Audiometry (IA) will be performed to identify the types of hearing loss and the possible causes and also the severity of your hearing loss. A referral to other professionals will be issued depending on the condition.",
+      "assessment_image": "./flow-1.jpg",
+      "selection_sign": "Service<0>02</0>",
+      "selection_title": "Hearing aids selection",
+      "selection_content": "Select the most suitable hearing aids according to the assessment results and your personal needs.",
+      "selection_image": "./flow-2.jpg",
+      "trial_sign": "Service<0>03</0>",
+      "trial_title": "Hearing aids trial",
+      "trial_content": "On-the-spot hearing aids tuning and listening trial ensure that the device is adjusted to your satisfaction. If you need any ear moulds or a specific device model, a deposit is required.",
+      "trial_image": "./flow-3.jpg",
+      "follow_up_sign": "Service<0>04</0>",
+      "follow_up_title": "Hearing aids adjustment and follow up service",
+      "follow_up_content": "Free cleaning, remote adjustment* and local repairing service are available. Regular hearing health follow-up and one-to-one audiologist consultations are also available.\n*for specific models",
+      "follow_up_image": "./flow-4.jpg",
+      "other_title": "Other service",
+      "install_title": "Installation of digital wireless accessories",
+      "install_content": "Connect your hearing aids to other devices such as TV or other accessories for you.",
+      "install_image": "./flow-5.jpg",
+      "maintenance_title": "Guidance on hearing aids usage and maintenance",
+      "maintenance_content": "Instruct user and caretaker the usage and maintenance of your hearing aids",
+      "maintenance_image": "./flow-6.jpg",
+      "shipping_title": "Shipping for repair and delivery",
+      "shipping_content": "You can pay in cash on Receiver service from SF Express. Shipping cost depends on the package weight. (If you require Cash on Delivery, please contact us)",
+      "shipping_image": "./flow-7.jpg"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "trial_title": "Visiting service",
+      "trial_content_1": "Hearing aids selection and instant trial",
+      "trial_content_2": "(hearing test included)",
+      "trial_price": "$3,000",
+      "trial_time": "120 min.",
+      "trial_button": "Book Now",
+      "trial_image": "./web-steps1.1.jpg",
+      "test_title": "Visiting service",
+      "test_content_1": "Hearing test and consultation",
+      "test_content_2": " ",
+      "test_price": "$1,800",
+      "test_time": "60 min.",
+      "test_button": "Book Now",
+      "test_image": "./web-steps1.2.jpg",
+      "adjustment_title": "Visiting service",
+      "adjustment_content_1": "Hearing aids adjustment",
+      "adjustment_content_2": " ",
+      "adjustment_price": "$1,800",
+      "adjustment_time": "60 min.",
+      "adjustment_button": "Book Now",
+      "adjustment_image": "./web-steps1.3.jpg",
+      "tip": "Above pricing are in effect from 1 January 2021 onwards, and are subject to change without prior notice.",
+      "tip_small": "*Extra fee will be charged for service at remote areas.\n**Service charge will be adjusted according to the duration of the service."
+    },
+    "consult": {
+      "title": "15-min Free Hearing Care Consultation with our Professional",
+      "content": "Leave your information and preferred time - our hearing care professional will call you back .",
+      "action": "Contact us now to learn more about our service!",
+      "image": "./consult-banner.png"
+    },
+    "booking": {
+      "title": "How to book",
+      "phone": "./step_phone.png",
+      "step_1_title": "Step1: Pick a date and time",
+      "step_1_content": "Go on HearGo's online booking platform, pick the interested visiting service, preferred date and time.",
+      "step_1_icons": "./step_icons_1.png",
+      "step_2_title": "Step2: Submit personal information",
+      "step_2_content": "Upon submission of your details, HearGo will match you with a suitable hearing care professional, who will contact you by phone to confirm the booking and fees within 1 business day.",
+      "step_2_icons": "./step_icons_2.png",
+      "step_3_title": "Step3: Visiting service",
+      "step_3_content": "Whether your selected venue is your home, a clinic or a hotel room, you just need to sit back and wait for our hearing care professional to come visit and provide you with professional hearing care services.",
+      "step_3_icons": "./step_icons_3.png",
+      "step_4_title": "Step4: Digitised audiology report",
+      "step_4_content": "You are required to register a free account on HearGo when booking our service. Once you log in, you will be able to access all booking details, hearing test report and payment record.",
+      "step_4_icons": "./step_icons_4.png"
+    },
+    "payments": {
+      "title": "Payment method",
+      "content": "You can choose your preferred payment method when booking the service. Payment will be made after the service is fulfilled. The amount of payment will be confirmed during booking confirmation. No charge will be made without your consent.",
+      "method_1": "Method 1: Credit card",
+      "method_2": "Method 2: FPS / Bank transfer",
+      "method_3": "Method 3: Payme",
+      "method_4": "Method 4: Cheque"
+    },
+    "faqs": {
+      "title": "FAQ",
+      "question_1": "Does the hearing test conducted during the visiting service reach the standard of those at a clinic?",
+      "answer_1": "Yes. All our specialised portable equipment meet the performance and calibration requirements of the relevant standards. The test procedures are the same as any standard hearing test at the clinic. We also ensure the ambient noise of the test environment is within accepted limits, and use insert earphones when necessary to minimise the effect of ambient noise and ensure test accuracy.",
+      "question_2": "Are there any drawbacks to a visiting service compared to a traditional clinic visit?",
+      "answer_2": "No. In fact, there are plenty of advantages for a visiting service. If the test determines that you are suffering from hearing loss and hearing aids are recommended, a hearing aids trial will be provided right away. This will give you the most accurate demonstration of how well the hearing aids function for your everyday activities. Our patients have also reflected that being in the comfort of their home makes the experience more relaxing.",
+      "question_3": "How long will the appointment last?",
+      "answer_3": "Depending on the service type, with up to 180 minutes per session.",
+      "question_4": "How often should I book an appointment?",
+      "answer_4": "If you are a hearing aid user suffering from hearing loss, we recommend annual hearing test to monitor any decline to your hearing and to keep the settings on your hearing aids updated.",
+      "question_5": "What does the service fee cover?",
+      "answer_5": "Service fee covers visiting consultation and service charge, transportation fee and electronic Simplified hearing test report.",
+      "question_6": "Will there be only one visiting specialist for the service?",
+      "answer_6": "The number of visiting specialist per session depends on the service type. For example, 2 specialists will be sent for a hearing aids fitting service.",
+      "question_7": "How will you charge if two people require your visiting service at the same location?",
+      "answer_7": "Our service is one-to-one. Therefore, service duration and charge depends on the number of people that require the service. For example, two people requiring hearing test at the same location, the total charge will be $1800 (60 min.) x 2 = $3200 (120 min. in total). Please specify the number of people requiring service at the time of booking."
+    },
+    "contact": {
+      "title": "Collaborations are welcome for elderly homes, outreach service, hospitals and clinics. Give us a call!",
+      "button": "Inquiry form",
+      "image": "./contact-banner.jpg"
+    }
+  },
+  "products": {
+    "title": "Products"
+  },
+  "knowledge": {
+    "title": "聽力知識",
+    "subtitle": "與你分享一系列關於聽力健康的文章",
+    "all_article": "",
+    "what_is_hearing_impairment": "什麼是聽力障礙",
+    "choose_hearing_aid": "如何選配助聽器",
+    "user_guide": "助聽器使用指南",
+    "maintenance": "保養清潔及維修",
+    "connect_accessories": "連接配件",
+    "bottm_title": "立即預約在家聽力護理服務",
+    "bottm_subtitle": "專家上門服務包括",
+    "bottom_service1": "專業耳道檢查及聽力評估",
+    "bottom_service2": "專家諮詢及提供方案",
+    "bottom_service3": "即場試戴代理助聽器",
+    "btn_contact": "立即聯絡HearGo專家團隊",
+    "phone_consult": "免費電話諮詢"
+  },
+  "booking": {
+    "step": "步驟",
+    "choose_services": "選擇服務",
+    "choose_date": "選擇日期時間",
+    "provide_info": "提供聯絡資料",
+    "confirm_booking": "確認預約",
+    "provide_payment": "輸入付款方式",
+    "btn_cont": "繼續",
+    "step01": {
+      "title": "請問您需要甚麼服務？",
+      "subtitle": "聽力專家到診",
+      "minute": "分鐘"
+    },
+    "step02": {
+      "title": "選擇日期時間",
+      "duration": "已預約",
+      "minute": "分鐘"
+    },
+    "step03": {
+      "title": "提供聯絡資料",
+      "contact_person": "聯絡人姓名",
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "phone": "電話",
+      "email": "電郵",
+      "address": "個人住址",
+      "room": "室",
+      "floor": "樓",
+      "block": "座",
+      "house": "屋苑/街道",
+      "district": "地區",
+      "zone": "區域",
+      "use_other_address": "使用其他地址",
+      "login_to_continue": "登入以繼續",
+      "continue_to_use_guest": "或 以訪客身份繼續",
+      "alert_message": "錯誤"
+    },
+    "step04": {
+      "title": "確認預約",
+      "personal_info": "個人資料",
+      "address": "地點",
+      "services": "服務種類",
+      "total": "共",
+      "datetime": "日期時間",
+      "min_of_service": "分鐘服務",
+      "remark": "Remark",
+      "agree_service": "同意上門服務",
+      "statement1": "謹此聲明本人已年滿18歲",
+      "statement2": "沒有正接受家居檢疫人士"
+    },
+    "step05": {
+      "title": "輸入付款方式",
+      "stripe": "信用卡",
+      "stripe_description": "授權信用卡，服務後付款",
+      "other": "其他付款方式",
+      "other_description": "我們接受現金、FPS、payme及支票付款，請將付款收據傳送去電話"
+    }
+  },
+  "member": {
+    "login": {
+      "title": "歡迎回來",
+      "subtitle": "登入",
+      "phone": "手機號碼",
+      "password": "密碼",
+      "remember_me": "記住用戶名",
+      "forget_password": "忘記密碼",
+      "btn_login": "登入",
+      "btn_register": "註冊",
+      "statement": "如你提交個人資料，將被視為你已閱讀、理解、同意並承諾遵守通用條款和條件 ，使用條款 及 HearGo網路私隱政策。",
+      "alert": "電話或密碼錯誤"
+    },
+    "register": {
+      "phone": {
+        "title": "立即加入",
+        "subtitle": "請查看手機短訊",
+        "phone": "手機號碼",
+        "verify_code": "驗證碼",
+        "send_code": "發送驗證碼",
+        "password": "密碼",
+        "password_hint": "密碼必需有至少8個字元，一個大寫字母，一個小寫字母，一個數字",
+        "btn_login": "登入",
+        "btn_register": "註冊",
+        "statement": "如你提交個人資料，將被視為你已閱讀、理解、同意並承諾遵守通用條款和條件 ，使用條款 及 HearGo網路私隱政策。",
+        "alert": "資料錯誤"
+      },
+      "information": {
+        "title": "請輸入你的個人資料",
+        "firstname": "名字",
+        "lastname": "姓氏",
+        "email": "電郵地址",
+        "dob": "生日",
+        "male": "男",
+        "female": "女",
+        "receive_newsletter": "不願意收取HearGo的郵件",
+        "receive_sms": "不願意收取HearGo的短訊",
+        "btn_register": "完成並提交",
+        "alert": "資料錯誤"
+      }
+    },
+    "profile": {
+      "list": {
+        "info": "帳戶資料",
+        "address": "個人住址",
+        "booking": "預約記錄",
+        "product": "產品資料",
+        "battery": "電池換領券",
+        "report": "聽力報告",
+        "logout": "登出"
+      },
+      "info": {
+        "hi": "您好，",
+        "welcome_back": "歡迎你回來！",
+        "account_info": "帳戶資料",
+        "account_setting": "帳戶設定",
+        "success_message": "更新成功",
+        "alert_message": "錯誤",
+        "email": "電郵",
+        "firstname": "姓名",
+        "lastname": "姓氏",
+        "gender": "性別",
+        "male": "男",
+        "female": "女",
+        "dob": "生日",
+        "btn_save": "儲存",
+        "statement": "如無法更新以上資料或遇到任何問題，請與我們的客戶服務主任聯絡",
+        "change_password": "更改密碼",
+        "old_password": "舊密碼",
+        "new_password": "新密碼",
+        "reenter_password": "重新輸入密碼",
+        "show_password": "顯示密碼",
+        "btn_save_password": "儲存"
+      },
+      "address": {
+        "title": "個人住址",
+        "room": "室",
+        "floor": "樓",
+        "block": "座",
+        "house": "屋苑/街道",
+        "district": "地區",
+        "zone": "區域",
+        "default": "預設地址",
+        "btn_add": "新增其他住址",
+        "success_message": "更新成功",
+        "alert_message": "錯誤"
+      },
+      "booking": {
+        "title": "預約記錄",
+        "date": "預約日期",
+        "time": "預約時間",
+        "services": "服務",
+        "service_time": "服務時間",
+        "minutes": "分鐘"
+      }
+    }
+  }
+}

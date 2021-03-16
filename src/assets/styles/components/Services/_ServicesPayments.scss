@@ -1,0 +1,13 @@
+#payments {
+  background-color: $pale-grey;
+  .text {
+    @include flex-container(column, center, flex-start);
+  }
+  .list {
+    @include flex-container(column, center, flex-start);
+    .action {
+      @include action-icon('../../images/services/icons/white-circle.svg');
+      color: black;
+    }
+  }
+}

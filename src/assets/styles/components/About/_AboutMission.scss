@@ -1,0 +1,38 @@
+#mission {
+  @media (max-width: $breakpoints-xs) {
+    height: 620px;
+  }
+  .background {
+    @include background-image;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    @media (min-width: $breakpoints-md) {
+      height: 700px;
+    }
+    .container {
+      @include flex-container(column, space-between, flex-start);
+      .story-text {
+        .title {
+          @include typo-subtitle;
+        }
+        .content {
+          @include typo-content-light;
+        }
+      }
+      .card {
+        background-color: $primary;
+        border: none;
+        border-radius: 0;
+        @media (max-width: $breakpoints-xs) {
+          position: relative;
+          bottom: -120px;
+        }
+        .slogan {
+          @include typo-heading;
+          color: $white;
+        }
+      }
+    }
+  }
+}

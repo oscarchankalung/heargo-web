@@ -1,0 +1,97 @@
+.navbar-nav {
+  .dropdown {
+    position: static;
+  }
+  .dropdown-menu {
+    @include typo-nav-dropdown;
+    width: 100vw;
+    height: calc(100vh - 80px - 70px);
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 80px;
+    border: none;
+    @media (min-width: $breakpoints-xl + 1) {
+      height: auto;
+      position: absolute;
+      z-index: 99;
+      left: 0;
+    }
+    &.show {
+      @include flex-container(column, flex-start, center);
+    }
+  }
+
+  .dropdown-toggle {
+    &::after {
+      content: none;
+      @media (max-width: $breakpoints-xl) {
+        @include typo-nav-icon;
+        content: url(../../images/navigation/icons/navigation-arrow-white-right.svg);
+        border: none;
+        margin-left: 0.5rem;
+        vertical-align: 1px;
+      }
+    }
+  }
+  .dropdown-toggle-overlay {
+    &::after {
+      content: none;
+    }
+    &::before {
+      @include typo-nav-icon;
+      content: url(../../images/navigation/icons/navigation-arrow-white-left.svg);
+      margin-right: 0.5rem;
+      vertical-align: 1px;
+      transform: scaleX(-1);
+    }
+  }
+
+  .dropdown-row {
+    @include flex-container(row, center, center);
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 99;
+    @media (max-width: $breakpoints-xl) {
+      @include flex-container(row, space-evenly, center);
+    }
+    .dropdown-item {
+      @include flex-container(column, center, center);
+      width: 155px;
+      &.active,
+      &:active,
+      &:hover,
+      &:focus {
+        background-color: $white;
+      }
+      .dropdown-top {
+        @include flex-container(row, center, center);
+        width: 130px;
+        height: 160px;
+        overflow: hidden;
+        .image {
+          width: inherit;
+          height: inherit;
+          object-fit: contain;
+        }
+      }
+      .dropdown-bottom {
+        @include flex-container(row, center, center);
+        width: 155px;
+        height: auto;
+        overflow: hidden;
+        .image {
+          width: inherit;
+          height: inherit;
+          object-fit: contain;
+        }
+        .text {
+          @include typo-nav-dropdown;
+          color: $secondary;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.navbar {
+  .navbar-brand {
+    @include flex-container(row, center, center);
+    height: 80px;
+    img {
+      width: 150px;
+      @media (max-width: $breakpoints-xl) {
+        width: 100px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    @media (max-width: $breakpoints-xl) {
+      position: relative;
+      height: calc(100vh - 80px);
+      width: 100vw;
+      background-color: $white;
+      overflow-x: hidden;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      @include typo-nav-menu;
+      padding: 0.5rem 1rem;
+      align-self: center;
+      cursor: pointer;
+      @media (max-width: $breakpoints-xl) {
+        padding: 1rem 0;
+        align-self: flex-start;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+    .navbar-toggler-icon {
+      @include typo-nav-icon;
+      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M7.116 8l-4.558 4.558.884.884L8 8.884l4.558 4.558.884-.884L8.884 8l4.558-4.558-.884-.884L8 7.116 3.442 2.558l-.884.884L7.116 8z" ></path></svg>');
+    }
+  }
+  .navbar-toggler.collapsed {
+    .navbar-toggler-icon {
+      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M14 5H2V3h12v2zm0 4H2V7h12v2zM2 13h12v-2H2v2z" ></path></svg>');
+    }
+  }
+
+  //nav-icon
+  .nav-icon {
+    @include typo-nav-icon;
+    color: $primary;
+  }
+  .nav-icon + .nav-icon {
+    margin-left: 1.5rem;
+  }
+}
+
+// lng switcher
+.delimited-list {
+  display: flex;
+  .active {
+    color: $primary;
+  }
+}

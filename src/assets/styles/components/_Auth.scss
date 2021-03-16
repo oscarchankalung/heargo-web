@@ -1,0 +1,27 @@
+.modal-content {
+  border-radius: 15px;
+
+  .modal-header {
+    background-image: url(../../images/auth/web_popup.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px 15px 0px 0px;
+    height: 206px;
+    margin: 0 0 17px;
+    color: $white;
+    text-align: center;
+    position: relative;
+    .modal-title {
+        margin: auto;
+    }
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+}
+
+.modal_subtitle {
+  margin-bottom: 1em;
+}

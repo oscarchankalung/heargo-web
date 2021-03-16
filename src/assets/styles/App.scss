@@ -1,0 +1,67 @@
+// External libraries
+@import '~bootstrap/scss/bootstrap';
+@import 'react-datepicker/dist/react-datepicker.css';
+@import 'antd/dist/antd.css';
+
+@import './custom.scss';
+@import '~swiper/swiper';
+@import '~swiper/components/navigation/navigation';
+@import '~swiper/components/effect-fade/effect-fade';
+
+// Internal utilities
+@import './utilities/variables';
+@import './utilities/theme';
+@import './utilities/mixins';
+
+// Internal reset
+@import './reset/typography';
+@import './reset/typography2';
+@import './reset/reset';
+
+// Generic components
+@import './components/Icon';
+@import './components/Lists';
+@import './components/Input';
+@import './components/Buttons';
+@import './components/Overlay';
+@import './components/Heading';
+@import './components/Actions';
+@import './components/Carousel';
+@import './components/Features';
+
+// Specific components: Nav and Footer
+@import './components/NavigationBar';
+@import './components/NavigationDropdown';
+@import './components/Footer';
+
+// Specific components: Home
+@import './components/Home/HomeFeatures';
+@import './components/Home/HomeServices';
+@import './components/Home/HomeProducts';
+
+// Specific components: About
+@import './components/About/AboutStory';
+@import './components/About/AboutNav';
+@import './components/About/AboutMission';
+@import './components/About/AboutTeam';
+@import './components/About/AboutValues';
+@import './components/About/AboutJoin';
+@import './components/About/AboutNews';
+
+// Specific components: Services
+@import './components/Services/ServicesBanner';
+@import './components/Services/ServicesSuitable';
+@import './components/Services/ServicesWhy';
+@import './components/Services/ServicesTypes';
+@import './components/Services/ServicesPricing';
+@import './components/Services/ServicesConsult';
+@import './components/Services/ServicesBooking';
+@import './components/Services/ServicesPayments';
+@import './components/Services/ServicesFaqs';
+@import './components/Services/ServicesContact';
+
+// Specific components
+@import './components/Knowledge';
+@import './components/Profile';
+@import './components/Booking';
+@import './components/Auth';

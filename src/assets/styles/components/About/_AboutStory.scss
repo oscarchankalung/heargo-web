@@ -1,0 +1,46 @@
+#story {
+  @include background-image(no-repeat, cover, top right);
+  background-image: url(../../../images/about/background-story-mobile.png);
+  width: 100%;
+  height: auto;
+  @media (min-width: $breakpoints-md) {
+    @include flex-container(row, center, center);
+    background-image: url(../../../images/about/background-story-desktop.png);
+    height: 564px;
+    padding: 77px 0;
+  }
+  .story-card {
+    position: relative;
+    z-index: 1;
+    bottom: -2.5rem;
+    @media (min-width: $breakpoints-md) {
+      max-width: 570px;
+      bottom: 0;
+    }
+  }
+  .story-image {
+    padding-left: 4rem;
+    @media (min-width: $breakpoints-md) {
+      padding-left: 1rem;
+    }
+  }
+  .title {
+    @include typo-content-normal;
+    color: $secondary;
+  }
+  .slogan {
+    @include typo-title;
+  }
+  .contents {
+    @include typo-content-light;
+  }
+  .image {
+    @include background-image(no-repeat, cover, top left);
+    height: 234px;
+    @media (min-width: $breakpoints-md) {
+    }
+    @media (min-width: $breakpoints-md + 1) {
+      height: 410px;
+    }
+  }
+}

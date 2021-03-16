@@ -1,0 +1,145 @@
+$paleGrey: #f1f0f4;
+$gunmetal: #4d515a;
+$orange: #f16338;
+
+.paleGrey {
+  color: $paleGrey !important;
+}
+
+.gunmetal {
+  color: $gunmetal !important;
+}
+
+.orange {
+  color: $orange !important;
+}
+
+.products-page {
+  > .products-category {
+    > .product-row {
+      .product-col {
+        background-clip: content-box;
+        background-color: $paleGrey;
+        height: 800px;
+        position: relative;
+
+        &.mobile {
+          height: 500px;
+        }
+
+        .product-detail {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: transparent;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          > .brand-logo {
+            &.mobile {
+              img {
+                height: 20px;
+              }
+            }
+
+            &.phonak-logo {
+              margin-top: -70px;
+
+              img {
+                height: 120px;
+              }
+
+              &.mobile {
+                margin-top: 0px;
+
+                img {
+                  height: 70px;
+                }
+              }
+            }
+          }
+
+          > .product-main-image {
+            &.mobile {
+              > img {
+                height: 200px;
+              }
+            }
+
+            > img {
+              height: 300px;
+            }
+
+            &.phonak-product {
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+            }
+          }
+
+          > .product-detail-footer {
+            > .title-product {
+              // font-size: 18px;
+
+              &.mobile {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .product-mask {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: $orange;
+          opacity: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          z-index: 10;
+          margin-left: 15px;
+          margin-right: 15px;
+
+          > .title-wrapper {
+            text-align: center;
+            width: 70%;
+
+            &.mobile {
+              width: 80%;
+            }
+
+            > .title {
+              font-size: 28px;
+
+              &.mobile {
+                font-size: 18px;
+              }
+
+              color: #fff;
+            }
+          }
+
+          > .custom-btn {
+            border-color: #fff;
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+          }
+        }
+
+        &:hover {
+          .product-mask {
+            opacity: 0.75;
+          }
+        }
+      }
+    }
+  }
+}

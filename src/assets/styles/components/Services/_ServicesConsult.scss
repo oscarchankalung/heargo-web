@@ -1,0 +1,36 @@
+#consult {
+  background-color: #fbece6;
+  .consult-bg {
+    width: 100%;
+    height: 520px;
+    @include background-image(no-repeat, cover, center);
+    @media (max-width: $breakpoints-md) {
+      @include background-image(no-repeat, cover, 35%);
+    }
+    @media (max-width: $breakpoints-sm) {
+      height: 320px;
+    }
+    .consult-card {
+      @include flex-container(column, center, flex-start);
+      @media (max-width: $breakpoints-md) {
+        margin-top: 10%;
+      }
+      .title {
+        color: white;
+        @media (max-width: $breakpoints-sm) {
+          font-size: 16px;
+        }
+      }
+      .content {
+        color: white;
+      }
+      .action {
+        @include action-icon('../../images/services/icons/arrow-white-right.svg');
+        color: white;
+        @media (max-width: $breakpoints-sm) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

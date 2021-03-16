@@ -1,0 +1,74 @@
+@mixin typography(
+  $font-family,
+  $breakpoints,
+  $large-size,
+  $small-size,
+  $large-weight,
+  $small-weight,
+  $large-line-height: 1.5,
+  $small-line-height: 1.5
+) {
+  font-family: $font-family;
+  font-size: $large-size;
+  font-weight: $large-weight;
+  line-height: $large-line-height;
+  white-space: pre-wrap;
+  @media (max-width: $breakpoints) {
+    font-size: $small-size;
+    font-weight: $small-weight;
+    line-height: $small-line-height;
+  }
+}
+@mixin flex-container($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin background-image($repeat: no-repeat, $size: cover, $position: center) {
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}
+@mixin button-variant($color, $background, $outline) {
+  color: $color;
+  background-color: $background;
+  border: 1px solid $outline;
+  &:hover,
+  &:focus,
+  &:not(:disabled):not(.disabled):active {
+    color: $color;
+    background-color: $background;
+    border: 1px solid $outline;
+  }
+}
+@mixin button-shape($radius) {
+  @include typo-button;
+  border-radius: $radius;
+  .button-icon {
+    @include typo-nav-icon;
+  }
+}
+@mixin action-icon($url: '../../images/home/icons/home_Arrow-right.svg') {
+  @include typo-action;
+  @include flex-container(row, flex-start, flex-start);
+  color: $primary;
+  &::before {
+    content: '';
+    display: block;
+    @include typo-icon;
+    @include background-image(no-repeat, contain, center);
+    background-image: url($url);
+    margin-right: 0.5rem;
+    @media (max-width: $breakpoints-md) {
+      margin-right: 0.75rem;
+    }
+  }
+}
+@mixin carousel-control-icon($url) {
+  background-image: url($url);
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 5px 0px rgb(160, 160, 160);
+  border-radius: 50%;
+}

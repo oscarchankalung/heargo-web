@@ -1,0 +1,230 @@
+.booking {
+    background-image: url(../../images/booking/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+
+    .topbar-circle {
+        border:1px solid $primary;    
+        border-radius:50%;
+        width: 65px;
+        height: 65px;
+        color: $primary;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        .circle-title {
+            padding-top: 10px;
+            font-size: 10px;
+            display: block;
+        }
+        .circle-number {
+            font-size: 22px;
+        }
+    }
+
+    h1 {
+        margin: 0.75em 0.75em;
+    }
+
+    .stepbar {
+        margin: 2em auto;
+        @media (max-width: $breakpoints-xl) {
+            display: none;
+            visibility: hidden;
+        }
+        .step {
+            display:inline-block;
+            width: fit-content;
+            margin: 0 1em;
+            .step-number {
+                display: block;
+                background: $white;
+                color: $secondary;
+                border-radius: 50%;
+                margin: auto;
+                width: 25px;
+                height: 25px;
+            }
+            .step-title {
+                font-size: 16px;
+                color: $secondary;
+            }
+        }
+        .active {
+            .step-number {
+                background: $primary;
+                color: $white;
+            }
+            .step-title {
+                color: $black;
+            }
+        }
+        hr {
+            display:inline-block;
+            width: 60px;
+        }
+    }
+   
+    .card {
+        border-radius: 12px;
+        .subtitle {
+            display: block;
+            font-size: 12px;
+            margin: 0.5em;
+        }
+        .card-title{
+            height: 5em;
+        }
+        .selected-icon{
+            position: absolute;
+            top: -12.5px;
+            right: -12.5px;
+            z-index: 10;
+            background: $primary;
+            color: $white;
+            border-radius: 50%;
+            margin: auto;
+            width: 25px;
+            height: 25px;
+            display: none;
+            visibility: hidden;
+        }
+
+        .selected-icon.active {
+            display: block;
+            visibility: inherit;
+        }
+    }
+    
+    .card.active {
+        border: solid 5px $primary;
+    }
+
+    .datetime.container {
+        margin: auto;
+        border-radius: 12px;
+        box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.04);
+        background-color: $white;
+        width: fit-content;
+
+        .react-datepicker {
+            margin: 40px;
+            background-color: transparent;
+            border-color: transparent;
+            
+        }
+        .react-datepicker__header  {
+            background-color: transparent;
+        }
+        .booking-info {
+            margin: 2.5em;
+            text-align: left;
+            span {
+                display: block;
+            }
+        }
+
+        .list-group{
+            border-radius: 0px;
+            box-shadow: none;
+            margin: 0px;
+        }
+        .list-group-item{
+            width: 100%;
+            margin: 0px;
+            padding: 10px;
+        }
+        .list-group-item:hover {
+            background-color: $primary;
+            color: $white;
+        }
+        .list-group-item.active {
+
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    .booking-input {
+        text-align: center;
+
+        .btn-long {
+            margin: 0.5em auto;
+            display: block;
+        }
+        span {
+            font-size: 12px;
+        }
+        .address{
+            text-align: left;
+            font-size: 20px;
+            margin: 0.25em;
+        }
+        .booking-input-form {
+            margin: 2em auto;
+            padding: 2em;
+            border-radius: 12px;
+            box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.04);
+            background-color: $white;
+            width: fit-content;
+        }
+    }
+
+    .booking-confirm {
+        margin: 2em auto;
+        padding: 3em;
+        border-radius: 12px;
+        box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.04);
+        background-color: $white;
+        width: 50em;
+        .info-group {
+            text-align: left;
+            margin: 1em;
+            h5 {
+                font-size: 20px;
+            }
+            span {
+                display: block;
+                font-size: 14px;
+            }
+            p {
+                display: block;
+                font-size: 14px;
+            }
+            .service-title {
+                display:inline-block;
+                width: fit-content;
+            }
+            .service-price {
+                float: right;
+                width: fit-content;
+            }
+        }
+    }
+
+    .booking-payment-form {
+        text-align: left;
+        width: 60%;
+        margin: 3em auto;
+        .form-group {
+            background-color: transparent;
+            margin-top: 1em;
+        }
+        .btn {
+            margin: auto;
+        }
+    }
+    
+    .booking-confirmed {
+        .letter-icon {
+            width: 100px;
+        }
+        span {
+            display: block;
+        }
+    }
+}
